@@ -106,7 +106,7 @@
 // Marginallyclever.com uses GT2 timing belt, which has 2mm teeth.
 // We also use GT2-20 pulleys which have 20 teeth.
 // 20*2 means the pitch is 40.
-#define PULLEY_PITCH         (32.0)
+#define PULLEY_PITCH         (40.0)
 
 // These numbers are calculated from the above.  No need to change these.
 #ifndef NORMAL_MOTOR_STEPS

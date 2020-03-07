@@ -17,7 +17,7 @@
 
 /// -------------- change here ----------------
 // change this line for your version
-#define MACHINE_HARDWARE_VERSION   MAKELANGELO_5
+#define MACHINE_HARDWARE_VERSION   MAKELANGELO_3_3
 
 // choose one of the following
 #define NORMAL_MOTOR_STEPS   200
@@ -41,10 +41,10 @@
 #define NUM_SERVOS           (1)
 #define NUM_TOOLS            (1)
 
-#define MAX_FEEDRATE         (500.0)  // depends on timer interrupt & hardware
+#define MAX_FEEDRATE         (400.0)  // depends on timer interrupt & hardware
 #define MIN_FEEDRATE         (0.0)
 
-#define MAX_ACCELERATION     (2000.0)
+#define MAX_ACCELERATION     (1500.0)
 #define MIN_ACCELERATION     (0.0)
 
 #if NORMAL_MOTOR_STEPS == 200
