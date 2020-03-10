@@ -66,19 +66,19 @@
 #if MACHINE_HARDWARE_VERSION == MAKELANGELO_5
 #define MAX_SEGMENTS         (16)  // has LCD, needs more ram.
 //#define USE_LIMIT_SWITCH
-//#define HAS_SD
-//#define HAS_LCD
+#define HAS_SD
+#define HAS_LCD
 #endif
 #if MACHINE_HARDWARE_VERSION == MAKELANGELO_3
 #define MAX_SEGMENTS         (16)  // has LCD, needs more ram.
-//#define HAS_SD
-//#define HAS_LCD
+#define HAS_SD
+#define HAS_LCD
 #endif
 #if MACHINE_HARDWARE_VERSION == MAKELANGELO_3_3
 #define MAX_SEGMENTS         (16)  // has LCD, needs more ram.
 //#define USE_LIMIT_SWITCH
-//#define HAS_SD
-//#define HAS_LCD
+#define HAS_SD
+#define HAS_LCD
 #endif
 
 extern void calibrateBelts();
