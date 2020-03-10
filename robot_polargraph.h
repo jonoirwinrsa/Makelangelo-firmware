@@ -12,12 +12,12 @@
 
 // supported versions of makelangelo polargraph robot
 #define MAKELANGELO_3    3
-#define MAKELANGELO_3_3  4
-#define MAKELANGELO_5    5
+//#define MAKELANGELO_3_3  4
+//#define MAKELANGELO_5    5
 
 /// -------------- change here ----------------
 // change this line for your version
-#define MACHINE_HARDWARE_VERSION   MAKELANGELO_3_3
+#define MACHINE_HARDWARE_VERSION   MAKELANGELO_3
 
 // choose one of the following
 #define NORMAL_MOTOR_STEPS   200

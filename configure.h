@@ -89,7 +89,7 @@
 // 200 step-per-turn motors move 1.8 degrees per step.  (360/200=1.8)
 // see your stepper motor data sheet for more info.
 #ifndef DEGREES_PER_STEP
-#define DEGREES_PER_STEP     (1.8)
+#define DEGREES_PER_STEP     (0.9)
 #endif
 
 // stepper motor drivers can use microstepping to split steps into fractions of steps for greater precision.
@@ -100,13 +100,13 @@
 // note that some boards have dip switches or jumpers that can be activated to turn stepping on and off.
 // make sure your dip switch settings match the firmware value.
 #ifndef MICROSTEPS
-#define MICROSTEPS           (16.0)
+#define MICROSTEPS           (8.0)
 #endif
 
 // Marginallyclever.com uses GT2 timing belt, which has 2mm teeth.
 // We also use GT2-20 pulleys which have 20 teeth.
 // 20*2 means the pitch is 40.
-#define PULLEY_PITCH         (40.0)
+#define PULLEY_PITCH         (32.0)
 
 // These numbers are calculated from the above.  No need to change these.
 #ifndef NORMAL_MOTOR_STEPS

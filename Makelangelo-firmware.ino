@@ -31,8 +31,8 @@ int robot_uid = 0;
 Axis axies[NUM_AXIES];
 
 // length of belt when weights hit limit switch
-float calibrateRight  = 800.0;
-float calibrateLeft   = 800.0;
+float calibrateRight  = 900.0;
+float calibrateLeft   = 900.0;
 
 // plotter position.
 float feed_rate = DEFAULT_FEEDRATE;
